@@ -124,9 +124,7 @@ item_images = { "Gem": load_image(application_path + 'assets/images/items/platfo
                 "Life": load_image(application_path + 'assets/images/items/Extra_heart.png')}
 
 # Levels
-levels = ["assets/levels/level_1.json",
-          "assets/levels/level_1.json",
-          "assets/levels/level_1.json"]
+levels = ["assets/levels/level_1.json"]
     
 # Sprite classes
 class Tile(pygame.sprite.Sprite):
