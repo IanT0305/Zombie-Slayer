@@ -56,35 +56,35 @@ font_xs = load_font(None, 16)
 font_sm = load_font(None, 32)
 font_md = load_font(None, 48)
 font_lg = load_font(None, 64)
-font_xl = load_font("assets/fonts/Cheri.ttf", 80)
+font_xl = load_font(application_path + "assets/fonts/Cheri.ttf", 80)
 
 # Sounds
-jump_snd = load_sound('assets/sounds/jump.ogg')
-gem_snd = load_sound('assets/sounds/gem.ogg')
-win_snd = load_sound('assets/sounds/win.ogg')
-lose_snd = load_sound('assets/sounds/Lose.ogg')
-hit_snd = load_sound('assets/sounds/Hit.ogg')
-intro_snd = load_sound('assets/sounds/theme3.ogg')
+jump_snd = load_sound(application_path + 'assets/sounds/jump.ogg')
+gem_snd = load_sound(application_path + 'assets/sounds/gem.ogg')
+win_snd = load_sound(application_path + 'assets/sounds/win.ogg')
+lose_snd = load_sound(application_path + 'assets/sounds/Lose.ogg')
+hit_snd = load_sound(application_path + 'assets/sounds/Hit.ogg')
+intro_snd = load_sound(application_path + 'assets/sounds/theme3.ogg')
 
 # Images
-Start_img = load_image('assets/images/backgrounds/Castle.png')
-Start_Char_img = load_image('assets/images/characters/Adventurer/adventurer_jump2.png')
-Start_Sword_img = load_image('assets/images/items/Sword2.png')
-Start_flag1_img = load_image('assets/images/tiles/Medieval_Tiles/medievalTile_210.png')
-Start_flag2_img = load_image('assets/images/tiles/Medieval_Tiles/medievalTile_187.png')
-Start_flag3_img = load_image('assets/images/tiles/Medieval_Tiles/medievalTile_188.png')
-Heart_img = load_image('assets/images/items/Heart.png')
-Open_heart_img = load_image('assets/images/items/Open_heart.png')
+Start_img = load_image(application_path + 'assets/images/backgrounds/Castle.png')
+Start_Char_img = load_image(application_path + 'assets/images/characters/Adventurer/adventurer_jump2.png')
+Start_Sword_img = load_image(application_path + 'assets/images/items/Sword2.png')
+Start_flag1_img = load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_210.png')
+Start_flag2_img = load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_187.png')
+Start_flag3_img = load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_188.png')
+Heart_img = load_image(application_path + 'assets/images/items/Heart.png')
+Open_heart_img = load_image(application_path + 'assets/images/items/Open_heart.png')
 
-idle = load_image('assets/images/characters/Adventurer/adventurer_idle.png')
-walk = [load_image('assets/images/characters/Adventurer/adventurer_walk1.png'),
-        load_image('assets/images/characters/Adventurer/adventurer_walk2.png')]
-jump = load_image('assets/images/characters/Adventurer/adventurer_jump.png')
-hurt = load_image('assets/images/characters/Adventurer/adventurer_hurt.png')
+idle = load_image(application_path + 'assets/images/characters/Adventurer/adventurer_idle.png')
+walk = [load_image(application_path + 'assets/images/characters/Adventurer/adventurer_walk1.png'),
+        load_image(application_path + 'assets/images/characters/Adventurer/adventurer_walk2.png')]
+jump = load_image(application_path + 'assets/images/characters/Adventurer/adventurer_jump.png')
+hurt = load_image(application_path + 'assets/images/characters/Adventurer/adventurer_hurt.png')
 
-enemy_walk = [ load_image('assets/images/characters/Zombie/zombie_walk1.png'),
-               load_image('assets/images/characters/Zombie/zombie_walk2.png') ]
-enemy_jump = load_image('assets/images/characters/Zombie/zombie_jump.png')
+enemy_walk = [ load_image(application_path + 'assets/images/characters/Zombie/zombie_walk1.png'),
+               load_image(application_path + 'assets/images/characters/Zombie/zombie_walk2.png') ]
+enemy_jump = load_image(application_path + 'assets/images/characters/Zombie/zombie_jump.png')
                    
 hero_images = { "idle_rt": idle,
                 "walk_rt": walk,
@@ -95,17 +95,17 @@ hero_images = { "idle_rt": idle,
                 "jump_lt": flip_image(jump),
                 "hurt_lt": flip_image(hurt) }
              
-tile_images = { "Ground": load_image('assets/images/tiles/Medieval_Tiles/medievalTile_067.png'),
-                "Dirt": load_image('assets/images/tiles/platformPack_tile007.png'),
-                "Platform": load_image('assets/images/tiles/platformPack_tile034.png'),
-                "Platform2": load_image('assets/images/tiles/Medieval_Tiles/medievalTile_087.png'),
-                "Platform3": load_image('assets/images/tiles/Medieval_Tiles/medievalTile_088.png'),
-                "Platform4": load_image('assets/images/tiles/Medieval_Tiles/medievalTile_089.png'),
-                "Platform5": load_image('assets/images/tiles/Medieval_Tiles/medievalTile_113.png'),
-                "Platform6": load_image('assets/images/tiles/Medieval_Tiles/medievalTile_112.png'),
-                "Plant": load_image('assets/images/tiles/platformPack_tile045.png'),
-                "FlagTop": load_image('assets/images/tiles/medievalTile_166.png'),
-                "FlagPole": load_image('assets/images/tiles/medievalTile_190.png') }
+tile_images = { "Ground": load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_067.png'),
+                "Dirt": load_image(application_path + 'assets/images/tiles/platformPack_tile007.png'),
+                "Platform": load_image(application_path + 'assets/images/tiles/platformPack_tile034.png'),
+                "Platform2": load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_087.png'),
+                "Platform3": load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_088.png'),
+                "Platform4": load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_089.png'),
+                "Platform5": load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_113.png'),
+                "Platform6": load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_112.png'),
+                "Plant": load_image(application_path + 'assets/images/tiles/platformPack_tile045.png'),
+                "FlagTop": load_image(application_path + 'assets/images/tiles/medievalTile_166.png'),
+                "FlagPole": load_image(application_path + 'assets/images/tiles/medievalTile_190.png') }
         
 basic_enemy_images = { "walk_rt": enemy_walk,
                        "walk_lt": [flip_image(img) for img in enemy_walk],
@@ -117,11 +117,11 @@ platform_enemy_images = { "walk_rt": enemy_walk,
                           "jump_rt": enemy_jump,
                           "jump_lt": flip_image(enemy_jump) }
 
-item_images = { "Gem": load_image('assets/images/items/platformPack_item008.png'),
-                "Gem2": load_image('assets/images/items/Pink_Gem.png'),
-                "Sword": load_image('assets/images/items/Sword2.png'),
-                "Heart": load_image('assets/images/items/Heart.png'),
-                "Life": load_image('assets/images/items/Extra_heart.png')}
+item_images = { "Gem": load_image(application_path + 'assets/images/items/platformPack_item008.png'),
+                "Gem2": load_image(application_path + 'assets/images/items/Pink_Gem.png'),
+                "Sword": load_image(application_path + 'assets/images/items/Sword2.png'),
+                "Heart": load_image(application_path + 'assets/images/items/Heart.png'),
+                "Life": load_image(application_path + 'assets/images/items/Extra_heart.png')}
 
 # Levels
 levels = ["assets/levels/level_1.json",
