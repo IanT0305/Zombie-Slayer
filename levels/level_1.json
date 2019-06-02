@@ -9,11 +9,11 @@
     "gravity": 1.5,
     "terminal_velocity": 36
   },
-  "music": "assets/sounds/theme2.ogg",
+  "music": application_path + "assets/sounds/theme2.ogg",
   "background": {
     "color": [0, 0, 0],
-    "image1": "assets/images/backgrounds/sky.png",
-    "image2": "assets/images/backgrounds/Backgrounds2/backgroundColorForest.png",
+    "image1": application_path + "assets/images/backgrounds/sky.png",
+    "image2": application_path + "assets/images/backgrounds/Backgrounds2/backgroundColorForest.png",
     "parallax_speed1": 0.6,
     "parallax_speed2": 0.3
   },
