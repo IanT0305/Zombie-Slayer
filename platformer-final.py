@@ -4,6 +4,12 @@ import json
 import os
 import sys
 
+if getattr(sys, 'frozen', False):
+    application_path = sys._MEIPASS + '/'
+else:
+    application_path = os.path.dirname(__file__) + '/'
+
+
 # Initialize game engine
 pygame.mixer.pre_init()
 pygame.init()
