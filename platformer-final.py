@@ -96,7 +96,6 @@ hero_images = { "idle_rt": idle,
                 "hurt_lt": flip_image(hurt) }
              
 tile_images = { "Ground": load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_067.png'),
-                "Platform": load_image(application_path + 'assets/images/tiles/platformPack_tile034.png'),
                 "Platform2": load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_087.png'),
                 "Platform3": load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_088.png'),
                 "Platform4": load_image(application_path + 'assets/images/tiles/Medieval_Tiles/medievalTile_089.png'),
