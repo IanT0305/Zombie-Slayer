@@ -8,3 +8,15 @@ Use the arrow keys to move left and right as well as the space bar to jump on to
 
 ## Start Screen
 ![Start Screen](assets/images/Screenshots/Start_Screen.png)
+
+## Gameplay
+![Gameplay](assets/images/Screenshots/Gameplay1.png)
+As you can see, your character can jump and land on top of those zombies to kill them.
+
+### Winning
+![Win](assets/images/Screenshots/Gameplay2.png)
+The character can jump and land on the flag at the end to win the game and gain points as seen in the top right corner.
+
+### Losing
+![Lose](assets/images/Screenshots/Gameplay3.png)
+Falling down an empty space in the bottom will result in zero lives and a complete loss of the game.
