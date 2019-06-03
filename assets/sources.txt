@@ -1,0 +1,19 @@
+Images
+https://kenney.nl/assets/simplified-platformer-pack (Characters, Platforms, Items)
+https://kenney.nl/assets/platformer-pack-medieval (Flag)
+https://bayat.itch.io/platform-game-assets/ (Backgrounds)
+https://kenney.nl/assets/background-elements-redux (Backgrounds)
+https://kenney.nl/assets/platformer-characters-1 (Characters)
+https://kenney.nl/assets/platformer-pack-medieval (Platforms)
+
+Sounds
+https://freesound.org/people/Lefty_Studios/sounds/369515/ (Jump)
+https://freesound.org/people/ProjectsU012/sounds/341695/ (Gem)
+https://freesound.org/people/Tuudurt/sounds/275104/ (Win)
+https://freesound.org/people/Soundholder/sounds/425347/ (Hit)
+https://freesound.org/people/suntemple/sounds/253174/ (Lose)
+https://freesound.org/people/tyops/sounds/423806/ (Theme)
+https://freesound.org/people/Cnupoc/sounds/449640/ (Intro)
+
+Fonts
+https://www.1001fonts.com/cheri-font.html (Cheri Font Family)
