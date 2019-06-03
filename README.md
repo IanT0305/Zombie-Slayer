@@ -7,4 +7,4 @@ In the year 2045, the first reanimated body ascended from the dead and began to 
 Use the arrow keys to move left and right as well as the space bar to jump on top of the zombies. When you land one time on top of any zombie, it will be killed and you will be awarded 10 points for each one. Collect any gems, coins, or the sword to get more points and reach a high score! The heart will give you an extra life if you can pick it up and the life pack in the first level will give you an extra available heart so that you can collect more lives. To get as many points as possble, jump to the top of the flag at the end and receive a higher score bonus.
 
 ## Start Screen
-![Start_Screen](/screenshots/Start_Screen.png)
+![Start_Screen](assets/screenshots/Start_Screen.png)
