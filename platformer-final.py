@@ -235,7 +235,7 @@ class Hero(pygame.sprite.Sprite):
             hit_list = pygame.sprite.spritecollide(self, level.enemies, False)
 
             for hit in hit_list:
-                if self.vy > 0 and (self.rect.bottom <= s.rect.centery - 5 or self.rect.bottom >= s.rect.centery + 32):
+                if self.vy > 0 and (self.rect.bottom <= (s.rect.centery - 5) or self.rect.bottom >= (s.rect.centery + 32)):
                     self.rect.top -= 20
                     hit.kill()
                     self.score += 10
